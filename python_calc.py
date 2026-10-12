@@ -9,7 +9,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Error: Cannot divide by zero"
+        return "Error: Cannot divide by 0"
     return a / b
 
 def even_odd(n):
@@ -19,17 +19,17 @@ def even_odd(n):
 
 def percentage(a, b):
     if b == 0:
-        return "Error: Cannot divide by zero"
+        return "Error: Can't divide by zero"
     return (a / b) * 100
 
 
 while True:
-    print("\n1. Addition")
+    print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
     print("5. Check Even/Odd")
-    print("6. Calculate Percentage")
+    print("6. Calculate  your Percentage")
     print("7. Exit")
 
     choice = input("Enter choice: ")
